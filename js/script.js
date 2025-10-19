@@ -103,7 +103,7 @@ function toggleRoute(tipo, name, chk) {
               }
 
               // 🔹 Aggiungi pulsante "Vai su GPX Studio"
-              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${fileName}`;
+              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${p.file_gpx}`;
               html += `<br><a href="${linkGpx}" target="_blank" class="vai-btn">🚴 Vai su GPX Studio</a>`;
 
 
