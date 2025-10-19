@@ -13,7 +13,21 @@
       "properties": {"name": "Lungolago verso Garda", "mappe": "https://www.google.com/maps/dir/45.6048,10.6897/45.598,10.702/45.586,10.72"}},
 
     {
-    "type": "Feature",
-    "properties": {"name": "Percorso 1", "file": "Percorso_Bici_1.geojson", "file_gpx": "Percorso_Bici_1.gpx" }}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MTB - STS S5",
+        "descrizione": "Giro ad anello tra uliveti e vista lago.",
+        "lunghezza": "46.8 km",
+        "dislivello": "940 m",
+        "tempo": "3h 10min",
+        "file_gpx": "Percorso_Bici_1.gpx"
+      }
+    }
+  ]
+}
+
   ]
 } 
