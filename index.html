@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Le Anze Agriturismo – Mappa (Torri del Benaco)</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <div class="logo">🌿</div>
+        <div class="title">Le Anze</div>
+        <div class="subtitle">Torri del Benaco</div>
+      </div>
+      <div class="controls">
+        <button id="btnFilter" class="btn" aria-expanded="false" aria-controls="filterPanel">Filtro</button>
+        <div class="lang">
+          <div class="pill" aria-current="true">🇮🇹 IT</div>
+          <div class="pill">🇬🇧 EN</div>
+          <div class="pill">🇩🇪 DE</div>
+        </div>
+      </div>
+    </header>
+
+    <aside id="filterPanel" class="panel" aria-hidden="true">
+      <header><h2>Filtri mappa</h2></header>
+      <div class="content">
+        <section class="group"><h3>Percorsi</h3>
+          <div class="option"><input type="checkbox" id="masterBici"><label for="masterBici">Percorsi in bici</label></div>
+          <div id="subBici"></div>
+
+          <div class="option" style="margin-top:.5rem"><input type="checkbox" id="masterPiedi"><label for="masterPiedi">Percorsi a piedi</label></div>
+          <div id="subPiedi"></div>
+        </section>
+
+        <section class="group"><h3>Punti di interesse</h3>
+          <div class="option"><input type="checkbox" data-file="ristoranti.geojson" id="chkRist"><label for="chkRist">Ristoranti</label></div>
+          <div class="option"><input type="checkbox" data-file="noleggi.geojson" id="chkRent"><label for="chkRent">Noleggio bici/barche</label></div>
+          <div class="option"><input type="checkbox" data-file="bar.geojson" id="chkBar"><label for="chkBar">Bar</label></div>
+          <div class="option"><input type="checkbox" data-file="supermercati.geojson" id="chkSuper"><label for="chkSuper">Supermercati</label></div>
+        </section>
+
+        <section class="group"><h3>Utility</h3>
+          <div class="option"><input type="checkbox" data-file="farmacia.geojson" id="chkFarmacia"><label for="chkFarmacia">Farmacia</label></div>
+          <div class="option"><input type="checkbox" data-file="raccolta_differenziata.geojson" id="chkRacc"><label for="chkRacc">Raccolta differenziata</label></div>
+        </section>
+      </div>
+    </aside>
+
+    <main id="map" aria-label="Mappa interattiva"></main>
+    <footer>V1.1_final – Torri del Benaco · Percorsi dinamici</footer>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

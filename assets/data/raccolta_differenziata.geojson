@@ -1,0 +1,20 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature","geometry": {"type": "Point","coordinates": [10.69022, 45.61249]},
+      "properties": {"name": "Punto Raccolta – Via G.Mazzini"}},
+
+    {
+      "type": "Feature","geometry": {"type": "Point","coordinates": [10.68837, 45.61260]},
+      "properties": {"name": "Punto Raccolta – Via Dell' Ortaglia"}},
+
+    {
+      "type": "Feature","geometry": {"type": "Point","coordinates": [10.69010, 45.60987]},
+      "properties": {"name": "Punto Raccolta – Via per Albisano"}},
+    
+    {
+      "type": "Feature","geometry": {"type": "Point","coordinates": [10.69123, 45.60867]},
+      "properties": {"name": "Punto Raccolta – Via per Albisano"}}
+  ]
+}

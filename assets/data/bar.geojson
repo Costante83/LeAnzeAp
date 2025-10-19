@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68591,45.60793]},
+      "properties": {"name": "Taverna Norma", "telefono": "+39 3477196235", "sito": "https://www.google.com/maps/place/Taverna+Norma/@45.6078928,10.6860251,49m/data=!3m1!1e3!4m6!3m5!1s0x4781f33fccdfb191:0xdb566132ab48712f!8m2!3d45.607944!4d10.6859251!16s%2Fg%2F11g0m55lxb?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68631,45.60910]},
+      "properties": {"name": "Don Diego","icona":"🍺", "telefono": "+39 045 7225133", "sito": "https://www.google.com/maps/place/Don+Diego/@45.609062,10.6862872,19z/data=!3m1!5s0x4781f3136ff12707:0x720489b23ae24ae5!4m14!1m7!3m6!1s0x4781f3136f955555:0x43ffe77941092743!2sA%26O+Torri+del+Benaco!8m2!3d45.6108877!4d10.6870066!16s%2Fg%2F11f3r1s5bt!3m5!1s0x4781f31393326555:0x9b6f7b51a6424f31!8m2!3d45.6090644!4d10.6862872!16s%2Fg%2F11btx0md1n?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [10.68599,45.60882]},
+      "properties": {"name": "Agata Gelateria & Caffè","icona": "☕ 🍦", "sito": "https://www.google.com/maps/place/Agata+Gelateria+%26+Caff%C3%A8/@45.6087723,10.6857274,81m/data=!3m2!1e3!5s0x4781f313f1864071:0x51d89a1be585fee!4m6!3m5!1s0x4781f532c47d50b1:0xd356027137e4f23a!8m2!3d45.6088093!4d10.6859853!16s%2Fg%2F11p16890_s?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}}   
+  ]
+}

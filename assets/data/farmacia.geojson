@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68696, 45.61071]},
+      "properties": {"name":"Farmacia Dr.Max","telefono":"+39 0457225021","sito":"https://www.drmax.it/le-nostre-farmacie/torri-del-benaco-via-gardesana-1205?y_source=1_MjAwMDczOTk1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"}
+    }
+]
+}

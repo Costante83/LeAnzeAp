@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68540,45.60946]},
+      "properties": {"name": "La Regata", "telefono":"+39 3935259609", "sito":"https://www.google.com/maps/place/La+Regata/@45.6095154,10.6853556,62m/data=!3m1!1e3!4m6!3m5!1s0x4781f3b5d79c1f9f:0x42cee40e0ce0e1b4!8m2!3d45.609488!4d10.6855952!16s%2Fg%2F11rs1bg2r9?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68622,45.61002]},
+      "properties": {"name": "Pizzeria Alla Piazzetta","icona":"🍕","telefono":"+39 3402607150","sito":"https://maps.app.goo.gl/BNdVG1AUWwhtQESU8"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68559,45.60998]},
+      "properties": {"name": "Da Carlo","icona":"🍽️-🍕", "telefono": "+39 0457225433", "menu": "https://ristorantedacarlo.plateform.app/takeaway", "sito": "https://www.google.com/maps/place/Ristorante+Pizzeria+Da+Carlo/@45.6100171,10.686024,154m/data=!3m1!1e3!4m14!1m7!3m6!1s0x4781f323faf99675:0xd6038e5e10295bed!2sLa+Rocca!8m2!3d45.6108091!4d10.6863253!16s%2Fg%2F11gh8c87rk!3m5!1s0x4781f3147f3aa6bb:0xbd3c90de58f96b63!8m2!3d45.6099523!4d10.6855809!16s%2Fg%2F1td4nkbx?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.6939,45.6076]},
+      "properties": {"name": "grotta", "icona":"🍽️", "telefono": "+39 0457225952", "menu": "https://www.ristorantegrotta.it/menu", "sito": "https://www.ristorantegrotta.it/"}}
+  ]
+}

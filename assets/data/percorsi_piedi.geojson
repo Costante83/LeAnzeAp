@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "LineString","coordinates": [[10.6905,45.6065],[10.694,45.612],[10.6995,45.6205]]},
+      "properties": {"name": "Sentiero verso Albisano (piedi)"}}
+  ]
+}

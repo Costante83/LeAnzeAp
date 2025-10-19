@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.687321991171581,45.611665077600236]},
+      "properties": {"name": "Big I Rent & Service","type": "boat Scooter","icona":"🚤🏍️","telefono":"+39 3485201317","sito":"http://bigirentservice.com/"}},
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68629134848134,45.60780933914965]},
+      "properties": {"name": "EBIKE SHOP","type": "bike","icona":"🚲","telefono":"+39 3497335573","sito":"https://maps.app.goo.gl/ywGRHjMQvaDaRY479"}}
+  ]
+}
