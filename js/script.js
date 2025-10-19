@@ -102,9 +102,13 @@ function toggleRoute(tipo, name, chk) {
               html += `</small>`;
               }
 
-              // 🔹 Aggiungi pulsante "Vai su GPX Studio"
-              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${p.file_gpx}`;
+              // 🔹 Crea link GPX anche se manca "file_gpx"
+              if (p.file_gpx || p.file) {
+              const baseName = (p.file_gpx || p.file).replace('.geojson', '.gpx');
+              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${baseName}`;
               html += `<br><a href="${linkGpx}" target="_blank" class="vai-btn">🚴 Vai su GPX Studio</a>`;
+              }
+
 
 
               l.bindPopup(html);
