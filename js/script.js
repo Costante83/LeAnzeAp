@@ -105,7 +105,7 @@ function toggleRoute(tipo, name, chk) {
               // 🔹 Crea link GPX anche se manca "file_gpx"
               if (p.file_gpx || p.file) {
               const baseName = (p.file_gpx || p.file).replace('.geojson', '.gpx');
-              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${baseName}`;
+              const linkGpx = `https://gpx.studio/?url=https://raw.githubusercontent.com/Costante83/LeAnzeApp/main/assets/data/${baseName}`;
               html += `<br><a href="${linkGpx}" target="_blank" class="vai-btn">🚴 Vai su GPX Studio</a>`;
               }
 
