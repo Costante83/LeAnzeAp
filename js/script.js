@@ -83,6 +83,7 @@ function toggleRoute(tipo, name, chk) {
 
     // 🗂️ Se la feature ha un campo "file", carica il file esterno
     if (feat.properties.file) {
+      const fileName = feat.properties.file;
       fetch('assets/data/' + feat.properties.file + '?v=' + Date.now())
         .then(r => r.json())
         .then(sub => {
@@ -101,9 +102,11 @@ function toggleRoute(tipo, name, chk) {
               html += `</small>`;
               }
 
-              // Link My Maps
-              if (p.mappa)
-                html += `<br>🗺️ <a href="${p.mappa}" target="_blank">Vedi percorso completo</a>`;
+              // 🔹 Aggiungi pulsante "Vai su GPX Studio"
+              const linkGpx = `https://gpx.studio/?url=https://leanzeapp.netlify.app/assets/data/${fileName}`;
+              html += `<br><a href="${linkGpx}" target="_blank" class="vai-btn">🚴 Vai su GPX Studio</a>`;
+
+
               l.bindPopup(html);
             }
           }).addTo(map);
