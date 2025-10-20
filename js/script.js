@@ -18,15 +18,9 @@ let userPosition = null;
 const arrowIcon = L.divIcon({
   className: "user-arrow",
   html: `
-    <div style="
-      width: 0; 
-      height: 0; 
-      border-left: 8px solid transparent; 
-      border-right: 8px solid transparent; 
-      border-bottom: 14px solid #007bff;
-      transform: rotate(0deg);
-      transform-origin: center;
-    "></div>
+  <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" style="transform: rotate(0deg); transform-origin: center;">
+    <polygon points="15,3 25,27 15,22 5,27" fill="#007bff" />
+  </svg>
   `,
   iconSize: [20, 20],
   iconAnchor: [10, 10]
