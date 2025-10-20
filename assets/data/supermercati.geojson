@@ -13,7 +13,12 @@
     {
       "type": "Feature",
       "geometry": {"type": "Point","coordinates": [10.68689,45.61014]},
-      "properties": {"name": "Frutta & Verdura","icona": "🍉🍅","telefono": "+39 0456926366", "sito": "https://www.google.com/maps/place/Consolini+Luca/@45.6101002,10.6869288,83m/data=!3m1!1e3!4m6!3m5!1s0x4781f313716bac13:0xf2fa4856a9213d9f!8m2!3d45.6101283!4d10.6869019!16s%2Fg%2F1hc3zpnj0?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}}
+      "properties": {"name": "Frutta & Verdura","icona": "🍉🍅","telefono": "+39 0456926366", "sito": "https://www.google.com/maps/place/Consolini+Luca/@45.6101002,10.6869288,83m/data=!3m1!1e3!4m6!3m5!1s0x4781f313716bac13:0xf2fa4856a9213d9f!8m2!3d45.6101283!4d10.6869019!16s%2Fg%2F1hc3zpnj0?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.686901504070692,45.61026600641673]},
+      "properties": {"name": "La Vineria", "icona": "🍾 🍷" , "telefono": "328 8653489", "sito": "https://www.google.com/maps/place/La+Vineria/@45.6102879,10.6867659,40m/data=!3m1!1e3!4m6!3m5!1s0x4781f313766af3a9:0xecfa8b7a77887882!8m2!3d45.6102676!4d10.6869188!16s%2Fg%2F11ggn5m23h?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"}} 
 
 ]
 }
