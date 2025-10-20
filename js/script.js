@@ -8,23 +8,64 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 L.marker([45.6214, 10.7006]).bindPopup('🏡 <b>Agriturismo Le Anze</b><br>Benvenuto!').addTo(map);
 
-// --- Localizzazione GPS utente ---
-if ("geolocation" in navigator) {
-  const userMarker = L.circleMarker([0, 0], {
-    radius: 7,
-    color: "#2563eb",
-    fillColor: "#3b82f6",
-    fillOpacity: 0.9
-  }).addTo(map);
 
+// --- Localizzazione GPS con freccia blu direzionale ---
+let userMarker = null;
+let userHeading = 0;
+let userPosition = null;
+
+// Icona freccia blu SVG (rotabile)
+const arrowIcon = L.divIcon({
+  className: "user-arrow",
+  html: `
+    <div style="
+      width: 0; 
+      height: 0; 
+      border-left: 8px solid transparent; 
+      border-right: 8px solid transparent; 
+      border-bottom: 14px solid #007bff;
+      transform: rotate(0deg);
+      transform-origin: center;
+    "></div>
+  `,
+  iconSize: [20, 20],
+  iconAnchor: [10, 10]
+});
+
+// Aggiorna direzione (bussola)
+if ('DeviceOrientationEvent' in window) {
+  window.addEventListener('deviceorientationabsolute', e => {
+    if (e.alpha !== null) userHeading = e.alpha; // 0-360°
+    updateArrowRotation();
+  }, true);
+  window.addEventListener('deviceorientation', e => {
+    if (e.alpha !== null) userHeading = e.alpha;
+    updateArrowRotation();
+  }, true);
+}
+
+function updateArrowRotation() {
+  const arrow = document.querySelector('.user-arrow div');
+  if (arrow) arrow.style.transform = `rotate(${userHeading}deg)`;
+}
+
+// Attiva tracciamento posizione GPS
+if ("geolocation" in navigator) {
   navigator.geolocation.watchPosition(
     pos => {
       const lat = pos.coords.latitude;
       const lon = pos.coords.longitude;
-      userMarker.setLatLng([lat, lon]);
-      // Centra la mappa solo la prima volta
+      userPosition = [lat, lon];
+
+      if (!userMarker) {
+        userMarker = L.marker(userPosition, { icon: arrowIcon }).addTo(map);
+      } else {
+        userMarker.setLatLng(userPosition);
+      }
+
+      // Centra la prima volta
       if (!map._userLocated) {
-        map.setView([lat, lon], 15);
+        map.setView(userPosition, 16);
         map._userLocated = true;
       }
     },
@@ -32,8 +73,9 @@ if ("geolocation" in navigator) {
     { enableHighAccuracy: true }
   );
 } else {
-  alert("Il tuo dispositivo non supporta la geolocalizzazione GPS.");
+  alert("⚠️ Il tuo dispositivo non supporta la geolocalizzazione GPS.");
 }
+
 
 
 // Apertura/chiusura pannello
