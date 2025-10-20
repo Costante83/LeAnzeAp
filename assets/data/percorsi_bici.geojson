@@ -14,6 +14,6 @@
 
     {
     "type": "Feature",
-    "properties": {"name": "Percorso 1", "file": "Percorso_Bici_1.geojson", "link_organic": "https://costante83.github.io/LeAnzeApp/assets/data/Percorso_Bici_1.gpx" }}
+    "properties": {"name": "Percorso 1", "file": "Percorso_Bici_1.geojson", "linc_organic": "https://costante83.github.io/LeAnzeApp/assets/data/Percorso_Bici_1.gpx" }}
   ]
 } 
