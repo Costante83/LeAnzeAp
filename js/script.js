@@ -8,6 +8,34 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 L.marker([45.6214, 10.7006]).bindPopup('🏡 <b>Agriturismo Le Anze</b><br>Benvenuto!').addTo(map);
 
+// --- Localizzazione GPS utente ---
+if ("geolocation" in navigator) {
+  const userMarker = L.circleMarker([0, 0], {
+    radius: 7,
+    color: "#2563eb",
+    fillColor: "#3b82f6",
+    fillOpacity: 0.9
+  }).addTo(map);
+
+  navigator.geolocation.watchPosition(
+    pos => {
+      const lat = pos.coords.latitude;
+      const lon = pos.coords.longitude;
+      userMarker.setLatLng([lat, lon]);
+      // Centra la mappa solo la prima volta
+      if (!map._userLocated) {
+        map.setView([lat, lon], 15);
+        map._userLocated = true;
+      }
+    },
+    err => console.warn("Errore GPS:", err),
+    { enableHighAccuracy: true }
+  );
+} else {
+  alert("Il tuo dispositivo non supporta la geolocalizzazione GPS.");
+}
+
+
 // Apertura/chiusura pannello
 const btn = document.getElementById('btnFilter'),
       panel = document.getElementById('filterPanel');
@@ -101,15 +129,6 @@ function toggleRoute(tipo, name, chk) {
               if (p.tempo) html += `⏱️ <b>Tempo:</b> ${p.tempo}<br>`;
               html += `</small>`;
               }
-
-              // 🔹 Crea link GPX anche se manca "file_gpx"
-              if (p.link_organic) {
-                html += `<br><a href="${p.link_organic}" target="_blank" class="vai-btn">🌿 Apri in Organic Maps</a>`;
-              }
-
-
-
-
               l.bindPopup(html);
             }
           }).addTo(map);
