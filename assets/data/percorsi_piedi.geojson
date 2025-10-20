@@ -9,6 +9,11 @@
 
   {
     "type": "Feature",
-    "properties": {"name": "Dalle Anze al Clero", "file": "Percorso_Piedi_2.geojson" }}
+    "properties": {"name": "Dalle Anze al Clero", "file": "Percorso_Piedi_2.geojson" }
+  },
+
+  {
+    "type": "Feature",
+    "properties": {"name": "Dalle Anze a San.Vigilio", "file": "Percorso_Piedi_3.geojson" }}
   ]
 }
