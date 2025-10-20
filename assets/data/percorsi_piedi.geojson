@@ -4,6 +4,11 @@
 
     {
     "type": "Feature",
-    "properties": {"name": "Percorso 1", "file": "Percorso_Piedi_1.geojson" }}
+    "properties": {"name": "Percorso 1", "file": "Percorso_Piedi_1.geojson" }
+  },
+
+  {
+    "type": "Feature",
+    "properties": {"name": "Dalle Anze al Clero", "file": "Percorso_Piedi_2.geojson" }}
   ]
 }
