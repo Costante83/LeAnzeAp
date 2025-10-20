@@ -103,11 +103,10 @@ function toggleRoute(tipo, name, chk) {
               }
 
               // 🔹 Crea link GPX anche se manca "file_gpx"
-              if (p.file_gpx || p.file) {
-              const baseName = (p.file_gpx || p.file).replace('.geojson', '.gpx');
-              const linkGpx = `https://gpx.studio/?url=https://raw.githubusercontent.com/Costante83/LeAnzeAp/main/assets/data/${baseName}&center=true`;
-              html += `<br><a href="${linkGpx}" target="_blank" class="vai-btn">🚴 Vai su GPX Studio</a>`;
+              if (p.link_organic) {
+                html += `<br><a href="${p.link_organic}" target="_blank" class="vai-btn">🌿 Apri in Organic Maps</a>`;
               }
+
 
 
 
