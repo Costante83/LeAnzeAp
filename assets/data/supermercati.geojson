@@ -18,7 +18,24 @@
     {
       "type": "Feature",
       "geometry": {"type": "Point","coordinates": [ 10.686901504070692,45.61026600641673]},
-      "properties": {"name": "La Vineria", "icona": "🍾 🍷" , "telefono": "328 8653489", "sito": "https://www.google.com/maps/place/La+Vineria/@45.6102879,10.6867659,40m/data=!3m1!1e3!4m6!3m5!1s0x4781f313766af3a9:0xecfa8b7a77887882!8m2!3d45.6102676!4d10.6869188!16s%2Fg%2F11ggn5m23h?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"}} 
+      "properties": {"name": "La Vineria", "icona": "🍾 🍷" , "telefono": "328 8653489", "sito": "https://www.google.com/maps/place/La+Vineria/@45.6102879,10.6867659,40m/data=!3m1!1e3!4m6!3m5!1s0x4781f313766af3a9:0xecfa8b7a77887882!8m2!3d45.6102676!4d10.6869188!16s%2Fg%2F11ggn5m23h?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.74285,45.58479]},
+      "properties": {"name": "Supermercato Famila", "telefono": "+39 045 2219500", "sito": "https://www.google.com/maps/place/Famila/@45.5847848,10.7426638,171m/data=!3m2!1e3!5s0x4781f1809dcc9ecd:0xe90845211cccf107!4m6!3m5!1s0x4781f22a54af0a89:0x9fc531855fad6baa!8m2!3d45.5847717!4d10.7428698!16s%2Fg%2F1tkmldkd?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68746,45.61110]},
+      "properties": {"name": "Bonetti Home","icona":"🔨 🛠️ ", "telefono": "+39 045 6296038", "sito": "https://www.google.com/maps/place/Bonetti+Hermes/@45.6110986,10.6878291,106m/data=!3m1!1e3!4m6!3m5!1s0x4781f313693b3e3b:0x389e2f551aedf4db!8m2!3d45.6111009!4d10.687303!16s%2Fg%2F1tmgb90m?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.71628,45.57583]},
+      "properties": {"name": "Ferramenta Zeus", "icona":"🔨 🛠️ ", "telefono": "+39 045 7255373", "sito": "https://www.google.com/maps/place/Ferramenta+Zeus/@45.5757098,10.715209,643m/data=!3m3!1e3!4b1!5s0x4781f23f477d8a2b:0xa35840f46743b08f!4m6!3m5!1s0x4781f23f447ec9b5:0xc06637d67afebbdc!8m2!3d45.5757082!4d10.7162871!16s%2Fg%2F11b6jgtd6j?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}}
+    
+
 
 ]
 }
