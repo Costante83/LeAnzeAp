@@ -28,6 +28,19 @@
     <aside id="filterPanel" class="panel" aria-hidden="true">
       <header><h2>Filtri mappa</h2></header>
       <div class="content">
+
+        <section class="group"><h3>Utility</h3>
+          <div class="option"><input type="checkbox" data-file="farmacia.geojson" id="chkFarmacia"><label for="chkFarmacia">Farmacia</label></div>
+          <div class="option"><input type="checkbox" data-file="raccolta_differenziata.geojson" id="chkRacc"><label for="chkRacc">Raccolta differenziata</label></div>
+        </section>
+ 
+        <section class="group"><h3>Punti di interesse</h3>
+          <div class="option"><input type="checkbox" data-file="ristoranti.geojson" id="chkRist"><label for="chkRist">Ristoranti</label></div>
+          <div class="option"><input type="checkbox" data-file="noleggi.geojson" id="chkRent"><label for="chkRent">Noleggio bici/barche</label></div>
+          <div class="option"><input type="checkbox" data-file="bar.geojson" id="chkBar"><label for="chkBar">Bar</label></div>
+          <div class="option"><input type="checkbox" data-file="supermercati.geojson" id="chkSuper"><label for="chkSuper">Supermercati</label></div>
+        </section>
+        
         <section class="group"><h3>Percorsi</h3>
           <div class="option"><input type="checkbox" id="masterBici"><label for="masterBici">Percorsi in bici</label></div>
           <div id="subBici"></div>
@@ -35,18 +48,7 @@
           <div class="option" style="margin-top:.5rem"><input type="checkbox" id="masterPiedi"><label for="masterPiedi">Percorsi a piedi</label></div>
           <div id="subPiedi"></div>
         </section>
-
-        <section class="group"><h3>Punti di interesse</h3>
-          <div class="option"><input type="checkbox" data-file="ristoranti.geojson" id="chkRist"><label for="chkRist">Ristoranti</label></div>
-          <div class="option"><input type="checkbox" data-file="noleggi.geojson" id="chkRent"><label for="chkRent">Noleggio bici/barche</label></div>
-          <div class="option"><input type="checkbox" data-file="bar.geojson" id="chkBar"><label for="chkBar">Bar</label></div>
-          <div class="option"><input type="checkbox" data-file="supermercati.geojson" id="chkSuper"><label for="chkSuper">Supermercati</label></div>
-        </section>
-
-        <section class="group"><h3>Utility</h3>
-          <div class="option"><input type="checkbox" data-file="farmacia.geojson" id="chkFarmacia"><label for="chkFarmacia">Farmacia</label></div>
-          <div class="option"><input type="checkbox" data-file="raccolta_differenziata.geojson" id="chkRacc"><label for="chkRacc">Raccolta differenziata</label></div>
-        </section>
+       
       </div>
     </aside>
 
