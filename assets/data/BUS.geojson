@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68659,45.60869]},
+      "properties": {"name": "Bus Direzione Garda ","type": "Point","icona":"🚏",
+      "linee":[
+        {"numero":"483","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/483.pdf"},
+        {"numero":"484","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/484.pdf"},
+        {"numero":"X05","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/X05.pdf"}
+        
+      ]}},
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.686732979064992,45.60868003322779]},
+      "properties": {"name": "Bus Direzione Brenzone ","type":"bus", "icona":"🚏",
+      "linee":[
+        {"numero":"483","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/483.pdf"},
+        {"numero":"484","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/484.pdf"},
+        {"numero":"X05","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/X05.pdf"}
+    ]}},
+
+      {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.709792555927304,45.575010332433074]},
+      "properties": {"name": "Stazione BUS Garda ","type":"bus", "icona":"🚏",
+      "linee":[
+        {"numero":"Tutte le Linee","link":"https://tech.atv.verona.it/atv_www/orari_extraurb/pdf/VR-Garda.pdf"}
+    ]}},
+
+      {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.68432110290274,45.608571963394375]},
+      "properties": {"name": "Battelli ","type":"bus", "icona":"🛳️",
+      "linee":[
+        {"numero":"Tutte le Linee","link":"https://www.navigazionelaghi.it/wp-content/uploads/2025/09/Orario-Battelli-Web-invernale-2025-2026.pdf"}
+      ]}},
+
+      {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.685220551062072,45.60563744946356]},
+      "properties": {"name": "Traghetto ","type":"bus", "icona":"🛳️ 🚗",
+      "linee":[
+        {"numero":"Tutte le Linee","link":"https://www.navigazionelaghi.it/wp-content/uploads/2025/09/Traghetto-Torri-Maderno-web-2025-2026.pdf"}
+      ]}}
+  ]
+}
+        
+      

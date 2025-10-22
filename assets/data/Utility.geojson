@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.686768339756172,45.60824883654011]},
+      "properties": {"name": "Carabinieri","icona":"👮‍♂️","telefono":"+39 045 7225092"}},
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.68560043898956,45.608048576709685]},
+      "properties": {"name": "Comune di Torri del Benaco","icona":"🏛️","telefono":"+39 045 6205806", "sito":"https://www.comune.torridelbenaco.vr.it/it"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.686172218979987,45.60724536251263]},
+      "properties": {"name": "Centro Informazioni ","icona":"ℹ️","telefono":"+39 o45 6296162","sito":"https://www.google.com/maps/place/NEW+-+IAT+Torri+del+Benaco/@45.6072359,10.6856683,72m/data=!3m2!1e3!5s0x4781f3115cd8729f:0x72fc6f90f25dcc2d!4m6!3m5!1s0x4781f31dc1a66239:0xc4d80ac39ad33d78!8m2!3d45.6072359!4d10.6861795!16s%2Fg%2F11s4y93j5j?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.690971812415242,45.61390212153135]},
+      "properties": {"name": "Spiaggia","icona":"⛱️","telefono":"+39 348 5925782"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [ 10.685150774584988,45.60618682439675]},
+      "properties": {"name": "Spiaggia","icona":"⛱️"}
+    }
+  ]
+}

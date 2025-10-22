@@ -18,7 +18,7 @@
 
     {
       "type": "Feature",
-      "geometry": {"type": "Point","coordinates": [10.6939,45.6076]},
-      "properties": {"name": "grotta", "icona":"🍽️", "telefono": "+39 0457225952", "menu": "https://www.ristorantegrotta.it/menu", "sito": "https://www.ristorantegrotta.it/"}}
+      "geometry": {"type": "Point","coordinates": [ 10.702073209257351,45.61146511503982]},
+      "properties": {"name": "Osteria La Cantina", "icona":"🍽️-🍕", "telefono": "+39 045 6577257", "menu": "https://www.google.com/maps/place/Osteria+la+Cantina/@45.6115109,10.7020174,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNXmcpE4l8w9KH18FjZoegRDUy61QKvUH7Eol9N!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fp%2FAF1QipNXmcpE4l8w9KH18FjZoegRDUy61QKvUH7Eol9N%3Dw137-h195-k-no!7i1122!8i1588!4m7!3m6!1s0x4781f3505add5cb9:0xa4e1a66385ad9703!8m2!3d45.6114727!4d10.7020836!10e9!16s%2Fg%2F11r8thm2v3?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D", "sito": "https://www.google.com/maps/place/Osteria+la+Cantina/@45.611497,10.7023669,282m/data=!3m1!1e3!4m6!3m5!1s0x4781f3505add5cb9:0xa4e1a66385ad9703!8m2!3d45.6114727!4d10.7020836!16s%2Fg%2F11r8thm2v3?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}}
   ]
 }

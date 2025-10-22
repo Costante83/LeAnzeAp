@@ -13,6 +13,11 @@
     {
       "type": "Feature",
       "geometry": {"type": "Point", "coordinates": [10.68599,45.60882]},
-      "properties": {"name": "Agata Gelateria & Caffè","icona": "☕ 🍦", "sito": "https://www.google.com/maps/place/Agata+Gelateria+%26+Caff%C3%A8/@45.6087723,10.6857274,81m/data=!3m2!1e3!5s0x4781f313f1864071:0x51d89a1be585fee!4m6!3m5!1s0x4781f532c47d50b1:0xd356027137e4f23a!8m2!3d45.6088093!4d10.6859853!16s%2Fg%2F11p16890_s?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}}   
+      "properties": {"name": "Agata Gelateria & Caffè","icona": "☕ 🍦", "sito": "https://www.google.com/maps/place/Agata+Gelateria+%26+Caff%C3%A8/@45.6087723,10.6857274,81m/data=!3m2!1e3!5s0x4781f313f1864071:0x51d89a1be585fee!4m6!3m5!1s0x4781f532c47d50b1:0xd356027137e4f23a!8m2!3d45.6088093!4d10.6859853!16s%2Fg%2F11p16890_s?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAwOC4wIKXMDSoASAFQAw%3D%3D"}},
+      
+      {
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [ 10.691218096914975,45.61383583872789]},
+      "properties": {"name": "Baia Stanca","icona": "☕-🍸-🍔", "sito": "https://www.google.com/maps/place/Baia+Stanca+Beach+Bar/@45.6137723,10.6909916,18.75z/data=!4m6!3m5!1s0x4781f36d11c2e87f:0x65a9112d03108357!8m2!3d45.6138974!4d10.6912623!16s%2Fg%2F11c5bslzd2?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"}}
   ]
 }

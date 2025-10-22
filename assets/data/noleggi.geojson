@@ -8,6 +8,13 @@
     {
       "type": "Feature",
       "geometry": {"type": "Point","coordinates": [10.68629134848134,45.60780933914965]},
-      "properties": {"name": "EBIKE SHOP","type": "bike","icona":"🚲","telefono":"+39 3497335573","sito":"https://maps.app.goo.gl/ywGRHjMQvaDaRY479"}}
+      "properties": {"name": "EBIKE SHOP","type": "bike","icona":"🚲","telefono":"+39 3497335573","sito":"https://maps.app.goo.gl/ywGRHjMQvaDaRY479"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [10.70925,45.57594]},
+      "properties": {"name": "Bella Bici ","type": "Scooter bike","icona":"🏍️🚲","telefono":"+39 3669365806","sito":"https://bellabici.bike/bici-prezzi"}
+    }
   ]
 }
