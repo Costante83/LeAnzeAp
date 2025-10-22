@@ -87,7 +87,7 @@ map.on('click', () => { if (panel.classList.contains('open')) togglePanel(false)
 // Stili e cache
 const styles = {
   bici:  { color: '#3b82f6', weight: 4, opacity: 0.9 },
-  piedi: { color: '#22c55e', weight: 3, opacity: 0.8, dashArray: '6,6' }
+  piedi: { color: '#c53b22ff', weight: 3, opacity: 0.9, dashArray: '6,6' }
 };
 const cacheRoutes = { bici: null, piedi: null };
 const routeLayers = {}; // key = tipo_nome
@@ -212,7 +212,8 @@ const ICONS={
   noleggi:emojiIcon('🚲'),
   supermercati:emojiIcon('🛒'),
   raccolta_differenziata:emojiIcon('♻️'),
-  farmacia:emojiIcon('💊')
+  farmacia:emojiIcon('💊'),
+  bus:emojiIcon('🚏')
 };
 const active={};
 function loadGeoJSON(file,cb){fetch('assets/data/' + file + '?v=' + Date.now()).then(r=>r.json()).then(cb).catch(()=>{});}
@@ -223,7 +224,9 @@ function toLayer(file,data){
     "noleggi.geojson",
     "supermercati.geojson",
     "raccolta_differenziata.geojson",
-    "farmacia.geojson"
+    "farmacia.geojson",
+    "BUS.geojson",
+    "Utility.geojson"
   ];
   const isP = p.includes(file);
   return L.geoJSON(data, {
@@ -244,8 +247,15 @@ function toLayer(file,data){
       if (p.email) html += `<br>✉️ <a href="mailto:${p.email}">${p.email}</a>`;
       if (p.orari) html += `<br>🕒 ${p.orari}`;
       if (p.note) html += `<br>🗒️ ${p.note}`;
+      if (p.linee) {html += `<br><b>🚌 Linee disponibili:</b><ul>`;
+          p.linee.forEach(l => {html += `<li>${l.numero}: <a href="${l.link}" target="_blank">Orari</a></li>`;
+    });
+    html += `</ul>`;
+  }
       layer.bindPopup(html);
     }
+
+    
   });
 }
 document.querySelectorAll('[data-file]').forEach(cb=>{
