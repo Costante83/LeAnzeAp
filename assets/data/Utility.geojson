@@ -27,6 +27,18 @@
       "type": "Feature",
       "geometry": {"type": "Point","coordinates": [ 10.685150774584988,45.60618682439675]},
       "properties": {"name": "Spiaggia","icona":"⛱️"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [  10.6867520418601831, 45.60857951944751]},
+      "properties": {"name": "Taxi Manuel","icona":"🚕","telefono":"+39 3467477732"}
+    },
+
+    {
+      "type": "Feature",
+      "geometry": {"type": "Point","coordinates": [  10.722876807457101,45.58135040584825]},
+      "properties": {"name":"Garda Driver Taxi+Transfer","icona":"🚕" ,"telefono":"+329 4250319"}
     }
   ]
 }

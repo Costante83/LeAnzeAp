@@ -1,19 +1,17 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "geometry": {"type": "LineString","coordinates": [[ 10.6897, 45.6048],[10.702,45.598],[10.72,45.586]]},
-      "properties": {"name": "Lungolago verso Garda", "mappe": "https://www.google.com/maps/dir/45.6048,10.6897/45.598,10.702/45.586,10.72"}},
-
-      
+    
     {
     "type": "Feature",
-      "geometry": {"type": "LineString","coordinates": [[ 10.6897, 45.6048],[10.702,45.598],[10.72,45.586]]},
-      "properties": {"name": "Lungolago verso Garda", "mappe": "https://www.google.com/maps/dir/45.6048,10.6897/45.598,10.702/45.586,10.72"}},
+    "properties": {"name": "46 Km", "file": "Percorso_Bici_1.geojson" }},
 
     {
     "type": "Feature",
-    "properties": {"name": "Percorso 1", "file": "Percorso_Bici_1.geojson" }}
+    "properties": {"name": "30 Km", "file": "Percorso_Bici_2.geojson" }},
+
+    {
+    "type": "Feature",
+    "properties": {"name": "25.7 Km", "file": "Percorso_Bici_3.geojson" }}
   ]
 } 
